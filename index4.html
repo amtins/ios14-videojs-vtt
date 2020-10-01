@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iOS 14</title>
+
+    <link href="https://vjs.zencdn.net/7.8.4/video-js.css" rel="stylesheet" />
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <video id="my-video" class="video-js" controls crossorigin="anonymous" preload="auto" style="width:100%; height:100vh;"
+        poster="https://www.swissinfo.ch/srgscalableimage/41857830/16x9/scale/width/700" data-setup="{}" playsinline>
+        <source
+            src="https://media.swissinfo.ch/media/video/1409f8ea-921b-4161-8da5-ff829e66dcd1/rendition/593063f3-8e43-4435-a2b1-cbaeff7fdfdb.mp4"
+            type="video/mp4">
+        <track src="https://amtins.github.io/ios14-videojs-vtt/fr.vtt" kind="subtitles" srclang="fr" label="Français">
+    </video>
+
+    <script src="https://vjs.zencdn.net/7.8.4/video.js"></script>
+</body>
+
+</html>
